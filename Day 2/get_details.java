@@ -2,7 +2,7 @@ import java.util.Scanner;
 class get_details{
 
     public static void main(String args[]){
-        Scanner obj=new Scanner(System.in);
+        Scanner obj=new Scanner(System.in);  // To get user input data
         System.out.print("enter your name:");
         String name=obj.nextLine();
         System.out.print("enter your age:");
